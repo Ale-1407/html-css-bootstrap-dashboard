@@ -1,0 +1,45 @@
+.container-princ{
+    height: 100vh;
+    border: 2px solid red;
+}
+
+.header{
+    height: 50px;
+    border: 2px solid green;
+}
+
+.main{
+    height: calc(100% - 50px);
+    border: 2px solid yellow;
+}
+
+.col-2{
+    background-color: #10273d;
+    height: 520px;
+}
+
+.col-10{
+    border: 3px solid black;
+    height: 520px;
+}
+
+.padd{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bg-primary{
+    height: 60px;
+}
+
+.hei{
+    height: 200px;
+}
+
+.hei2{
+    height: 80px;
+}
+
+.hei3{
+    height: 250px;
+}
