@@ -53,6 +53,14 @@
     overflow-y: scroll;
 }
 
-.list-group{
+.l-g-p{
     padding: 10px;
+}
+
+.img-fluid{
+    max-width: 25px;
+}
+
+.logo{
+    max-width: 70px;
 }
