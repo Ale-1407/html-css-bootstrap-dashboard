@@ -4,6 +4,7 @@
 
 .main{
     height: calc(100vh - 50px);
+    overflow-y: auto;
 }
 
 #sidebar{
@@ -27,3 +28,14 @@
     }
 }
 
+.fs1{
+    font-size: 12px;
+}
+
+.bg-bl-op{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-badge{
+    font-size: 9px; 
+}
