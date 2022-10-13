@@ -14,15 +14,21 @@
         <div class="container-fluid">
             <div class="row align-items-center justify-content-center">
                 <div class="col-1">
-                    <img src="./assets/img/logo.svg" alt="logo">
+                    <img src="./assets/img/logo.svg" class="d-none d-lg-inline-block img-fluid " alt="logo">
+                    <img src="./assets/img/mobile-logo.png" class="d-inline-block d-lg-none img-fluid" alt="logo-mobile">
                 </div>
                 <div class="col-10">
-                    barra ricerca
+                    <div class="input-group">
+                        <span class="input-group-text bg-lightgrey border border-end-0" id="basic-addon1">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <input type="text" class="form-control border border-start-0" placeholder="Prova a cercare: Lezioni di Laravel " aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
                 </div>
                 <div class="col-1 d-flex justify-content-around">
-                    <i class="fa-solid fa-list"></i>
-                    <i class="fa-solid fa-circle-question"></i>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <i class="fa-solid fa-list d-none d-lg-block"></i>
+                    <i class="fa-solid fa-circle-question d-none d-lg-block"></i>
+                    <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
                     <i class="fa-solid fa-bell text-warning"></i>
                 </div>
             </div>
@@ -31,17 +37,17 @@
       <div class="main">
         <div class="container-fluid h-100">
             <div class="row h-100">
-                <div class="col-2 bg-dark-custom" id="sidebar">
+                <div class="col-2 bg-dark-custom text-white" id="sidebar">
                     sidebar
                 </div>
-                <div class="col-10">
+                <div class="col-10 px-0">
                     <div class="container-fluid bg-primary text-white py-4">
-                        <div class="row">
+                        <div class="row ">
                             <div class="col-lg-8">
-                                classi
+                                Boolean
                             </div>
                             <div class="col-lg-4">
-                                top
+                                studenti online
                             </div>
                         </div>
 

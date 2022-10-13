@@ -1,6 +1,5 @@
 .header{
     height: 50px;
-    background-color:rgb(8, 210, 210);
 }
 
 .main{
@@ -12,10 +11,19 @@
     background-image: url("../img/sidebar-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 .bg-dark-custom{
-background-color: #0a1e34;
+    background-color: #0a1e34;
 }
 
+.form-control{
+    background-color: #e9ecef;
+}
 
+@media screen and (max-width: 992px) {
+    .col-1 .fa-solid{
+        padding: 4px;
+    }
+}
