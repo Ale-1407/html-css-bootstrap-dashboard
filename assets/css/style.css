@@ -4,7 +4,6 @@
 
 .main{
     height: calc(100vh - 50px);
-    background-color: rgb(162, 0, 255);
 }
 
 #sidebar{
@@ -27,3 +26,4 @@
         padding: 4px;
     }
 }
+
