@@ -32,6 +32,10 @@
     font-size: 12px;
 }
 
+.fs2{
+    font-size: 15px;
+}
+
 .bg-bl-op{
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -39,3 +43,4 @@
 .text-badge{
     font-size: 9px; 
 }
+
