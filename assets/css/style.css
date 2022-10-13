@@ -21,12 +21,6 @@
     background-color: #e9ecef;
 }
 
-@media screen and (max-width: 992px) {
-    .col-1 .fa-solid{
-        padding: 4px;
-    }
-}
-
 .fs1{
     font-size: 12px;
 }
