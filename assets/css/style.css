@@ -4,7 +4,6 @@
 
 .main{
     height: calc(100vh - 50px);
-    overflow-y: auto;
 }
 
 #sidebar{
@@ -44,3 +43,7 @@
     font-size: 9px; 
 }
 
+.card-body{
+    padding: 5px;
+    background-color: #f7f7f7;
+}
