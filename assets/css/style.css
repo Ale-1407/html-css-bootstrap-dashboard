@@ -1,40 +1,21 @@
-.container-princ{
-    height: 100vh;
-    border: 2px solid red;
-}
-
 .header{
     height: 50px;
-    border: 2px solid green;
+    background-color:rgb(8, 210, 210);
 }
 
 .main{
-    height: calc(100% - 50px);
-    border: 2px solid yellow;
+    height: calc(100vh - 50px);
+    background-color: rgb(162, 0, 255);
 }
 
-.col-2{
-    background-color: #10273d;
-    height: 520px;
+#sidebar{
+    background-image: url("../img/sidebar-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.col-10{
-    border: 3px solid black;
-    height: 520px;
+.bg-dark-custom{
+background-color: #0a1e34;
 }
-
-.padd{
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.bg-primary{
-    height: 60px;
-}
-
-.hei{
-    height: 200px;
-}
-
 
 
