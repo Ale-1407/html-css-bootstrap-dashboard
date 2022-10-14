@@ -58,3 +58,19 @@
 .logo{
     max-width: 70px;
 }
+
+.header-icons{
+    gap: 7px;
+}
+
+.btn-drop{
+    padding: 0;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.rounded-pill:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
